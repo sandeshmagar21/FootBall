@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="30dp"
+        android:background="#0032332F"
+        android:gravity="center"
+        android:text="Futsal App"
+        android:textColor="#FCF1E4E4"
+        android:textColorHint="#F6E9E9"
+        android:textSize="30dp"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/login_email_id"
+        android:layout_width="278dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="#48050505"
+        android:hint="Enter email address"
+        android:textColor="#FAECDDDD"
+        android:textColorHighlight="#00E6DFDF"
+        android:textColorHint="#EFE6E6"
+        android:textColorLink="#F1E9E9"
+        />
+
+    <EditText
+        android:id="@+id/login_password_id"
+        android:layout_width="278dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="#6F090908"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#FAECDDDD"
+        android:textColorHighlight="#00E6DFDF"
+        android:textColorHint="#EFE6E6"
+        android:textColorLink="#F1E9E9"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/login_id"
+        android:layout_width="156dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="#78070707"
+        android:hint="Login"
+        android:onClick="Login"
+        android:textColor="#F2E8DEDE"
+        android:textColorHint="#F0F8F6F6"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#B3050505"
+        android:onClick="CreateAccount"
+        android:text="Create  Account"
+        android:textColor="#F0FFFFFE"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/forgot_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#AC090808"
+        android:text="Forgot Password"
+        android:textColor="#B2F4EBEB"
+        android:textSize="18sp" />
+
+</LinearLayout>
